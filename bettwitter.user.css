@@ -11,11 +11,26 @@
 @-moz-document domain("twitter.com") {
 /* actual dark theme plz */
 /* 17 17 21 */
-	body, .dashboard, .global-nav .search-input, .global-nav .search-input:focus, .RichEditor, input, textarea, div[contenteditable], .t1-select{
+	body, .dashboard, .global-nav .search-input, .global-nav .search-input:focus, .RichEditor, input, textarea, div[contenteditable], .t1-select, .new-tweets-bar:hover{
 		background-color: #111115;
 	}
+/* 18 18 22 */
+	.new-tweets-bar, .ProfileHeading-content, .EdgeButton--secondary:hover, .stream-end-inner, .FollowStatus, .EdgeButton--tertiary, .modal-header{
+		background-color: #121216;
+	}
+/* 24 24 28 */
+	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message{
+		background-color: #18181C;
+	}
+	.DMInboxItem:hover, .u-bgUserColorLightest{
+		background: #18181C !important;
+	}
+/* 28 28 33 */
+	.tweet, .tweet-user, .TwitterCard, .home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox, .modal-content, .modal .modal-tweet, .ThreadedConversation-moreReplies, .permalink, .permalink .inline-reply-tweetbox, .permalink .stream-end-inner, .permalink-tweet:hover, .permalink-tweet.focus, .stream-item:not(.no-header-background-module), .ActivityItem, .DMActivity-body, .DMDivider, .DMTrustRequest, .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers{
+		background-color: #1C1C21;
+	}
 /* 33 33 38 */
-	.global-nav-inner, .ProfileCanopy-navBar, .ProfileCard, .ProfileCard-avatarLink, .DashboardProfileCard, .module{
+	.global-nav-inner, .ProfileCanopy-navBar, .ProfileCard, .ProfileCard-avatarLink, .DashboardProfileCard, .module, .EdgeButton--tertiary:hover{
 		background: #212126;
 	}
 	.ProfileAvatar{
@@ -23,24 +38,22 @@
 		border: 4px solid #212126;
 		border-radius: 10%;
 	}
-/* 28 28 33 */
-	.tweet, .tweet-user, .home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox, .ThreadedConversation-moreReplies, .permalink .inline-reply-tweetbox, .permalink .stream-end-inner, .permalink-tweet:hover, .permalink-tweet.focus, .stream-item:not(.no-header-background-module), .ActivityItem, .DMActivity-body, .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers{
-		background-color: #1C1C21;
+/* 50 50 54 */
+	.DMInboxItem.is-unread{
+		background-color: #323236;
 	}
-/* 24 24 28 */
-	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary{
-		background-color: #18181C;
+/* 200 200 210 */
+	.EdgeButton--tertiary, .EdgeButton--tertiary:hover, .Icon--verified{
+		color: #C8C8D2;
 	}
-	.DMInboxItem:hover, .u-bgUserColorLightest{
-		background: #18181C !important;
-	}
-/* 18 18 22 */
-	.new-tweets-bar, .ProfileHeading-content, .EdgeButton--secondary:hover{
-		background-color: #121216;
-	}
-	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof{
+/* transparent */
+	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container{
 		background-color: transparent;
 	}
+	.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active{
+		background-color: transparent !important;
+	}
+/* dunno yet */
 	.count{
 		background-color: #000;
 	}
@@ -89,8 +102,23 @@
 	.hovercard.profile-card .ProfileCard-avatarImage{
 		border: 2px solid transparent;
 	}
+/* animate ALL the things! */
+	.tweet{
+		-webkit-transition: 50ms linear;
+		-ms-transition: 50ms linear;
+		transition: 50ms linear;
+	}
+	.QuoteTweet{
+		-webkit-transition: 150ms linear;
+		-ms-transition: 150ms linear;
+		transition: 150ms linear;
+	}
+/* FIXING TWITTER'S OWN BUGS */
+	.ProfileCard-screenname{
+		margin-top: 3px;
+	}
 	
-	/* STAGING
+/* STAGING
 	body.three-col .wrapper{
 		width: 80vw;
 	}
@@ -101,5 +129,5 @@
 		min-height: 100px;
 		max-height: 45vh;
 	}
-	*/
+*/
 }
