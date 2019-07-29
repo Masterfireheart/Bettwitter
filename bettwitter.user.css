@@ -15,14 +15,14 @@
 		background-color: #111115;
 	}
 /* 18 18 22 */
-	.new-tweets-bar, .ProfileHeading-content, .EdgeButton--secondary:hover, .stream-end-inner, .FollowStatus, .EdgeButton--tertiary, .modal-header{
+	.new-tweets-bar, .ProfileHeading-content, .EdgeButton--secondary:hover, .stream-end-inner, .FollowStatus, .EdgeButton--tertiary, .modal-header, .DirectMessage--received .DirectMessage-text, .TypingIndicatorMessageBubble-dotContainer, .DMInbox-secondaryInboxCopy, .PermalinkOverlay-spinnerContainer, .Tombstone, .tweet-form .thumbnail-container{
 		background-color: #121216;
 	}
 /* 24 24 28 */
-	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message{
+	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header{
 		background-color: #18181C;
 	}
-	.DMInboxItem:hover, .u-bgUserColorLightest{
+	.DMInboxItem:hover, .u-bgUserColorLightest, .flex-module{
 		background: #18181C !important;
 	}
 /* 28 28 33 */
@@ -47,12 +47,17 @@
 		color: #C8C8D2;
 	}
 /* transparent */
-	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container{
+	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads{
 		background-color: transparent;
 	}
 	.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active{
 		background-color: transparent !important;
 	}
+/* "other", basically fixes for the weird situations */
+	.Tombstone .Tombstone-action:hover{
+		color: inherit;
+	}
+	
 /* dunno yet */
 	.count{
 		background-color: #000;
@@ -72,9 +77,6 @@
 	.content-inner{
 		background-color: #000;
 	}
-	.flex-module{
-		background-color: #000;
-	}
 	.list-link{
 		background-color: #000;
 	}
@@ -83,7 +85,7 @@
 	}
 	
 /* FUCK CIRCLES */
-	.avatar, .Avatar, .ProfileAvatar-image, .ProfileAvatar-placeholderImage, .ProfileUserList .Avatar, .ProfileCard-avatarImage, .ProfileCardMini-avatarImage, .ProfileCard-avatarLink, .ProfileListItem-avatar, .nav .session .dropdown-toggle{
+	.avatar, .Avatar, .ProfileAvatar-image, .ProfileAvatar-placeholderImage, .ProfileUserList .Avatar, .ProfileCard-avatarImage, .ProfileCardMini-avatarImage, .ProfileCard-avatarLink, .ProfileListItem-avatar, .nav .session .dropdown-toggle, .DMAvatar{
 		border-radius: 10%;
 	}
 	.Gallery.with-tweet.without-tweet .Gallery-media{
@@ -93,7 +95,7 @@
 		border-radius: 10%;
 		border: 2px solid #212126;
 	}
-	.global-nav .search-input{
+	.global-nav .search-input, .DirectMessage-message{
 		border-radius: 10px;
 	}
 	.AdaptiveMedia{
@@ -102,6 +104,20 @@
 	.hovercard.profile-card .ProfileCard-avatarImage{
 		border: 2px solid transparent;
 	}
+	
+/* border BEGONE */
+	.DMConversationSettings-notifications{
+		border-top: 0px;
+	}
+	.DMConversationSettings-mentions{
+		border-bottom: 0px;
+	}
+	
+/* border be.... repurposed */
+	.DMConversationSettings-participants .view-dm-participants{
+		border-top: 1px solid #38444d;
+	}
+
 /* animate ALL the things! */
 	.tweet{
 		-webkit-transition: 50ms linear;
@@ -113,17 +129,39 @@
 		-ms-transition: 150ms linear;
 		transition: 150ms linear;
 	}
+	.DirectMessage-actions{
+		-webkit-transition: 100ms linear;
+		-ms-transition: 100ms linear;
+		transition: 100ms linear;
+		opacity: 0;
+	}
+	.DirectMessage-container:hover .DirectMessage-actions{
+		opacity: 1;
+	}
+	
 /* FIXING TWITTER'S OWN BUGS */
 	.ProfileCard-screenname{
 		margin-top: 3px;
 	}
 	
+/* r-r-r-r-resize */
+	.DMActivity{
+		width: 30vw;
+		max-width: 50vw;
+	}
+	.DirectMessage-message{
+		max-width: 100%;
+	}
+	.content-main{
+		width: 620px;
+	}
+	.AdaptiveMedia{
+		max-width: 520px;
+	}
+
 /* STAGING
 	body.three-col .wrapper{
 		width: 80vw;
-	}
-	.content-main{
-		width: 30vw;
 	}
 	.AdaptiveMedia.is-square, .AdaptiveMedia.is-square .AdaptiveMedia-videoPreview{
 		min-height: 100px;
