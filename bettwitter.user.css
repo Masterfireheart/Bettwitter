@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Bettwitter
 @namespace      betwit
-@version        1.2.1
+@version        1.2.2
 @homepageURL    https://github.com/Masterfireheart/Bettwitter
 @updateURL      https://raw.githubusercontent.com/Masterfireheart/Bettwitter/master/bettwitter.user.css
 @description    Making Twitter better for the Twitter Happy Havoc crew and co.
@@ -47,7 +47,7 @@
 		color: #C8C8D2;
 	}
 /* transparent */
-	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads{
+	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads, .ThreadedConversation, .ThreadedConversation--loneTweet, .self-thread-permalink-cta{
 		background-color: transparent;
 	}
 	.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active{
@@ -85,7 +85,7 @@
 	}
 	
 /* FUCK CIRCLES */
-	.avatar, .Avatar, .ProfileAvatar-image, .ProfileAvatar-placeholderImage, .ProfileUserList .Avatar, .ProfileCard-avatarImage, .ProfileCardMini-avatarImage, .ProfileCard-avatarLink, .ProfileListItem-avatar, .nav .session .dropdown-toggle, .DMAvatar{
+	.avatar, .Avatar, .ProfileAvatar-image, .ProfileAvatar-placeholderImage, .ProfileUserList .Avatar, .ProfileCard-avatarImage, .ProfileCardMini-avatarImage, .ProfileCard-avatarLink, .ProfileListItem-avatar, .nav .session .dropdown-toggle, .DMAvatar, .avatar--circular{
 		border-radius: 10%;
 	}
 	.Gallery.with-tweet.without-tweet .Gallery-media{
