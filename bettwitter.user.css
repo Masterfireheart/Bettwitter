@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Bettwitter
 @namespace      betwit
-@version        1.2.2
+@version        1.2.3
 @homepageURL    https://github.com/Masterfireheart/Bettwitter
 @updateURL      https://raw.githubusercontent.com/Masterfireheart/Bettwitter/master/bettwitter.user.css
 @description    Making Twitter better for the Twitter Happy Havoc crew and co.
@@ -19,7 +19,7 @@
 		background-color: #121216;
 	}
 /* 24 24 28 */
-	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body{
+	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body, #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet{
 		background-color: #18181C;
 	}
 	.DMInboxItem:hover, .u-bgUserColorLightest, .flex-module{
@@ -104,7 +104,10 @@
 	.hovercard.profile-card .ProfileCard-avatarImage{
 		border: 2px solid transparent;
 	}
-	
+	.ComposerThumbnail-remove{
+		border-radius: 2px;
+	}
+
 /* border BEGONE */
 	.DMConversationSettings-notifications{
 		border-top: 0px;
@@ -171,6 +174,13 @@
 	}
 	.AdaptiveMedia{
 		max-width: 520px;
+	}
+	.ComposerThumbnail-remove{
+		height: 14px;
+		width: 14px;
+	}
+	.ComposerThumbnail-remove .Icon{
+		line-height: 1;
 	}
 
 /* STAGING
