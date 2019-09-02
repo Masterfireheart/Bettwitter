@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Bettwitter
 @namespace      betwit
-@version        1.2.4
+@version        1.2.5
 @homepageURL    https://github.com/Masterfireheart/Bettwitter
 @updateURL      https://raw.githubusercontent.com/Masterfireheart/Bettwitter/master/bettwitter.user.css
 @description    Making Twitter better for the Twitter Happy Havoc crew and co.
@@ -19,14 +19,14 @@
 		background-color: #121216;
 	}
 /* 24 24 28 */
-	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body, #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet, .ThreadedConversation--header, .content-header .header-inner, .module .list-link, .module .list-link:hover, .module .active .list-link{
+	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body, #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet, .ThreadedConversation--header, .content-header .header-inner, .module .list-link, .module .list-link:hover, .module .active .list-link, #activity-popup-dialog .modal-header{
 		background-color: #18181C;
 	}
 	.DMInboxItem:hover, .u-bgUserColorLightest, .flex-module{
 		background: #18181C !important;
 	}
 /* 28 28 33 */
-	.tweet, .tweet-user, .TwitterCard, .home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox, .modal-content, .modal .modal-tweet, .ThreadedConversation-moreReplies, .permalink, .permalink .inline-reply-tweetbox, .permalink .stream-end-inner, .permalink-tweet:hover, .permalink-tweet.focus, .stream-item:not(.no-header-background-module), .ActivityItem, .DMActivity-body, .DMDivider, .DMTrustRequest, .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers{
+	.tweet, .tweet-user, .TwitterCard, .home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox, .modal-content, .modal .modal-tweet, .ThreadedConversation-moreReplies, .permalink, .permalink .inline-reply-tweetbox, .permalink .stream-end-inner, .permalink-tweet:hover, .permalink-tweet.focus, .stream-item:not(.no-header-background-module), .ActivityItem, .DMActivity-body, .DMDivider, .DMTrustRequest, .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, #activity-popup-dialog .modal-content{
 		background-color: #1C1C21;
 	}
 /* 33 33 38 */
@@ -47,7 +47,7 @@
 		color: #C8C8D2;
 	}
 /* transparent */
-	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads, .ThreadedConversation, .ThreadedConversation--loneTweet, .self-thread-permalink-cta, .dashboard .stats{
+	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads, .ThreadedConversation, .ThreadedConversation--loneTweet, .self-thread-permalink-cta, .dashboard .stats, .activity-popup-dialog-content .tweet{
 		background-color: transparent;
 	}
 	.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active{
