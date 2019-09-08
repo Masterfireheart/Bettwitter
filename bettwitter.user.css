@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Bettwitter
 @namespace      betwit
-@version        1.3.0
+@version        1.3.1
 @homepageURL    https://github.com/Masterfireheart/Bettwitter
 @updateURL      https://raw.githubusercontent.com/Masterfireheart/Bettwitter/master/bettwitter.user.css
 @description    Making Twitter better for the Twitter Happy Havoc crew and co.
@@ -261,6 +261,9 @@
 	.permalink-in-reply-tos .tweet, .permalink-replies .tweet{
 		padding-left: 26px;
 		padding-right: 26px;
+	}
+	.permalink .inline-reply-tweetbox{
+		padding: 15px 25px 15px 65px;
 	}
 	.permalink.self-thread-permalink-with-descendant .permalink-tweet-container::after, .permalink.self-thread-permalink-with-descendant .inline-reply-tweetbox-container::after{
 		bottom: -4px;
