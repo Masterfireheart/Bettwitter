@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Bettwitter
 @namespace      betwit
-@version        1.3.1
+@version        1.3.2
 @homepageURL    https://github.com/Masterfireheart/Bettwitter
 @updateURL      https://raw.githubusercontent.com/Masterfireheart/Bettwitter/master/bettwitter.user.css
 @description    Making Twitter better for the Twitter Happy Havoc crew and co.
@@ -120,7 +120,7 @@
 	}
 
 /* border BEGONE */
-	.DMConversationSettings-notifications{
+	.DMConversationSettings-notifications, .modal-footer{
 		border-top: 0px;
 	}
 	.DMConversationSettings-mentions{
@@ -164,7 +164,15 @@
 	.DirectMessage-container:hover .DirectMessage-actions{
 		opacity: 1;
 	}
-	
+
+/* shading moment */
+	.global-nav-inner{
+		box-shadow: 0px 0px 25px 20px #000;
+	}
+	.avatar{
+		box-shadow: 0px 0px 4px 0px #000;
+	}
+
 /* FIXING TWITTER'S OWN BUGS */
 	/* clipping follow tag */
 	.ProfileCard-screenname{
@@ -276,7 +284,7 @@
 		width: 26px;
 	}
 	.ThreadedConversation-tweet::after{
-		top: 66px;
+		top: 64px;
 	}
 	.bird-topbar-etched{
 		margin-top: 12px;
