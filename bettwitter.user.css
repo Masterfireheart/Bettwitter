@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Bettwitter
 @namespace      betwit
-@version        1.3.2
+@version        1.3.3
 @homepageURL    https://github.com/Masterfireheart/Bettwitter
 @updateURL      https://raw.githubusercontent.com/Masterfireheart/Bettwitter/master/bettwitter.user.css
 @description    Making Twitter better for the Twitter Happy Havoc crew and co.
@@ -15,14 +15,14 @@
 		background-color: #111115;
 	}
 /* 18 18 22 */
-	.new-tweets-bar, .ProfileHeading-content, .EdgeButton--secondary:hover, .stream-end-inner, .FollowStatus, .EdgeButton--tertiary, .modal-header, .DirectMessage--received .DirectMessage-text, .TypingIndicatorMessageBubble-dotContainer, .DMInbox-secondaryInboxCopy, .PermalinkOverlay-spinnerContainer, .Tombstone, .tweet-form .thumbnail-container, .DMComposer-container, .rn-1q3imqu, .advanced-search .chk-inner, .advanced-search select, .advanced-search input[type="text"]{
+	.new-tweets-bar, .ProfileHeading-content, .EdgeButton--secondary:hover, .stream-end-inner, .FollowStatus, .EdgeButton--tertiary, .modal-header, .DirectMessage--received .DirectMessage-text, .TypingIndicatorMessageBubble-dotContainer, .DMInbox-secondaryInboxCopy, .PermalinkOverlay-spinnerContainer, .Tombstone, .tweet-form .thumbnail-container, .DMComposer-container, .rn-1q3imqu, .advanced-search .chk-inner, .advanced-search select, .advanced-search input[type="text"], .wtf-module .import-prompt .service{
 		background-color: #121216;
 	}
 /* 24 24 28 */
-	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body, #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet, .ThreadedConversation--header, .content-header .header-inner, .module .list-link, .module .list-link:hover, .module .active .list-link, #activity-popup-dialog .modal-header, .rn-urgr8i, .FoundMediaSearch-query, .dropdown-menu, .PollingCardComposer, .EmojiPicker-categoryHeader, .AdaptiveFiltersBar{
+	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body, #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet, .ThreadedConversation--header, .content-header .header-inner, .module .list-link, .module .list-link:hover, .module .active .list-link, #activity-popup-dialog .modal-header, .rn-urgr8i, .FoundMediaSearch-query, .dropdown-menu, .PollingCardComposer, .EmojiPicker-categoryHeader, .AdaptiveFiltersBar, .MomentGuideNavigation{
 		background-color: #18181C;
 	}
-	.DMInboxItem:hover, .u-bgUserColorLightest, .flex-module{
+	.DMInboxItem:hover, .u-bgUserColorLightest, .flex-module, .MomentsGuidePage-content, n.MomentsPage.MomentsPermalinkPage, .MomentsPage.MomentsGuidePage{
 		background: #18181C !important;
 	}
 	.FoundMediaSearch-content.Caret::after, .EmojiPicker-content.Caret::after{
@@ -36,13 +36,16 @@
 	.global-nav-inner, .ProfileCanopy-navBar, .ProfileCard, .ProfileCard-avatarLink, .DashboardProfileCard, .module, .EdgeButton--tertiary:hover{
 		background: #212126;
 	}
+	.trends-container{
+		background: #212126 !important;
+	}
 	.ProfileAvatar{
 		background: #212126;
 		border: 4px solid #212126;
 		border-radius: 10%;
 	}
 /* 50 50 54 */
-	.DMInboxItem.is-unread{
+	.DMInboxItem.is-unread, .MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover{
 		background-color: #323236;
 	}
 /* 200 200 210 */
@@ -50,10 +53,10 @@
 		color: #C8C8D2;
 	}
 /* transparent */
-	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads, .ThreadedConversation, .ThreadedConversation--loneTweet, .self-thread-permalink-cta, .dashboard .stats, .activity-popup-dialog-content .tweet, .EmojiPicker-query, .search{
+	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads, .ThreadedConversation, .ThreadedConversation--loneTweet, .self-thread-permalink-cta, .dashboard .stats, .activity-popup-dialog-content .tweet, .EmojiPicker-query, .search, .MomentMediaItem, .MomentCapsuleSummary-cover{
 		background-color: transparent;
 	}
-	.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active, body > .TwitterCard, .PlayableMedia-reactWrapper > div{
+	.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active, body > .TwitterCard, .PlayableMedia-reactWrapper > div, .ProfileSidebar .flex-module, .SidebarCommonModules .flex-module{
 		background-color: transparent !important;
 	}
 /* "other", basically fixes for the weird situations */
@@ -119,6 +122,11 @@
 		border-radius: 2px;
 	}
 
+/* ~BEGONE PROMOTED CONTENT~ */
+	.promoted, .promoted-tweet, .Footer-adsModule{
+		display: none !important;
+	}
+
 /* border BEGONE */
 	.DMConversationSettings-notifications, .modal-footer{
 		border-top: 0px;
@@ -142,6 +150,10 @@
 	.Footer .u-cf{
 		display: flex;
 		justify-content: space-around;
+	}
+	.dashboard-right .u-cf, .ProfileSidebar .u-cf, .SidebarCommonModules .u-cf{
+		justify-content: center;
+		flex-wrap: wrap;
 	}
 
 /* animate ALL the things! */
@@ -167,10 +179,13 @@
 
 /* shading moment */
 	.global-nav-inner{
-		box-shadow: 0px 0px 25px 20px #000;
+		box-shadow: 0px 0px 25px 15px #000;
 	}
-	.avatar{
+	.avatar, #user-dropdown{
 		box-shadow: 0px 0px 4px 0px #000;
+	}
+	.Emoji{
+		filter: drop-shadow(0px 0px 2px #000);
 	}
 
 /* FIXING TWITTER'S OWN BUGS */
@@ -203,10 +218,17 @@
 		top: 1px;
 		left: 3px;
 	}
+	/* incorrect gmail icon placement */
+	.wtf-module .import-prompt .service{
+		padding: 4px 5px 4px 6px;
+	}
 
 /* r-r-r-r-resize */
 	.AppContainer{
 		max-width: 1220px;
+	}
+	body.three-col .wrapper{
+		width: 65%;
 	}
 	.DMActivity{
 		width: 30vw;
@@ -303,5 +325,8 @@
 	}
 	.SidebarCommonModules{
 		width: 280px;
+	}
+	.Footer--blankBackground{
+		padding: 10px 15px;
 	}
 }
