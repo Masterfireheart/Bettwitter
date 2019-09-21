@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Bettwitter
 @namespace      betwit
-@version        1.3.7
+@version        1.3.8
 @homepageURL    https://github.com/Masterfireheart/Bettwitter
 @updateURL      https://raw.githubusercontent.com/Masterfireheart/Bettwitter/master/bettwitter.user.css
 @description    Making Twitter better for the Twitter Happy Havoc crew and co.
@@ -19,7 +19,7 @@
 		background-color: #121216;
 	}
 /* 24 24 28 */
-	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body, #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet, .ThreadedConversation--header, .content-header .header-inner, .module .list-link, .module .list-link:hover, .module .active .list-link, #activity-popup-dialog .modal-header, .rn-urgr8i, .FoundMediaSearch-query, .dropdown-menu, .PollingCardComposer, .EmojiPicker-categoryHeader, .AdaptiveFiltersBar, .MomentGuideNavigation, .DMButtonBar, .DMTokenizedMultiselectSuggestion.is-highlighted, .DMPopover-content, .DirectMessage-location, .DirectMessage-card, .content-inner, .find-friends-top-subheader, .find-friends-bottom-subheader, .find-friends-sources, .MutedKeywordsFooter{
+	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body, #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet, .ThreadedConversation--header, .content-header .header-inner, .module .list-link, .module .list-link:hover, .module .active .list-link, #activity-popup-dialog .modal-header, .rn-urgr8i, .FoundMediaSearch-query, .dropdown-menu, .PollingCardComposer, .EmojiPicker-categoryHeader, .AdaptiveFiltersBar, .MomentGuideNavigation, .DMButtonBar, .DMTokenizedMultiselectSuggestion.is-highlighted, .DMPopover-content, .DirectMessage-location, .DirectMessage-card, .content-inner, .find-friends-top-subheader, .find-friends-bottom-subheader, .find-friends-sources, .MutedKeywordsFooter, .ProfileTweet-action .btn{
 		background-color: #18181C;
 	}
 	.DMInboxItem:hover, .u-bgUserColorLightest, .flex-module, .MomentsGuidePage-content, n.MomentsPage.MomentsPermalinkPage, .MomentsPage.MomentsGuidePage{
@@ -350,7 +350,7 @@
 	.mini-avatar-with-thread{
 		margin-left: -60px;
 	}
-	.user-data-dashboard-content hr, .user-data-dashboard-content h3{
+	.user-data-dashboard-content hr, .user-data-dashboard-content h3, .permalink .ThreadedConversation--selfThread:not(:last-child){
 		margin: 0;
 	}
 	.SidebarCommonModules{
