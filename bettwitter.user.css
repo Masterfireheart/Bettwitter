@@ -59,7 +59,7 @@
 	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads, .ThreadedConversation, .ThreadedConversation--loneTweet, .self-thread-permalink-cta, .dashboard .stats, .activity-popup-dialog-content .tweet, .EmojiPicker-query, .search, .MomentMediaItem, .MomentCapsuleSummary-cover, .AdaptiveMedia-photoContainer img, .SessionsSettings--row .SessionsSettings--row-time-active, .PhotoRail-mediaBox .tweet-media-img-placeholder, .input-prepend .add-on, .input-append .add-on{
 		background-color: transparent;
 	}
-	.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active, body > .TwitterCard, .PlayableMedia-reactWrapper > div, .ProfileSidebar .flex-module, .SidebarCommonModules .flex-module, .AdaptiveMedia-photoContainer{
+	.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active, body > .TwitterCard, .PlayableMedia-reactWrapper > div, .ProfileSidebar .flex-module, .SidebarCommonModules .flex-module, .AdaptiveMedia-photoContainer, .original-image{
 		background-color: transparent !important;
 	}
 /* "other", basically fixes for the weird situations */
