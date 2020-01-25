@@ -311,6 +311,7 @@
 		padding: 18px 26px;
 	}
 	.ThreadedConversation.ThreadedConversation--permalinkTweetWithAncestors .permalink-tweet{
+		padding-top: 9px;
 	}
 	.permalink.self-thread-permalink .permalink-tweet{
 		padding-left: 84px;
@@ -416,8 +417,19 @@
 }
 
 /* Twitter View Original Images extension fixes */
-		padding: 6px 0px 4px !important;	}
+	#twOpenOriginalImage_image_overlay_header{
+		background: #121216 none repeat scroll 0% 0% !important;
+		border-bottom: 0px solid #121216 !important;
+		padding: 6px 0px 4px !important;
+	}
 	.image-link-container{
+		background: transparent !important;
+	}
+	.original-image{
+		background-color: transparent !important;
+		filter: drop-shadow(0px 0px 0px #000);
+		transition: 200ms cubic-bezier(.79,.14,.15,.86) !important;
+	}
 	.original-image:hover{
 		filter: drop-shadow(0px 0px 6px #000);
 	}
