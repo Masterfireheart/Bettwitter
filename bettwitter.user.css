@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Bettwitter
 @namespace      betwit
-@version        1.4.1
+@version        1.4.2
 @homepageURL    https://github.com/Masterfireheart/Bettwitter
 @updateURL      https://raw.githubusercontent.com/Masterfireheart/Bettwitter/master/bettwitter.user.css
 @description    Making Twitter better for the Twitter Happy Havoc crew and co.
@@ -11,15 +11,15 @@
 @-moz-document domain("twitter.com") {
 /* actual dark theme plz */
 /* 17 17 21 */
-	.logged-in, .logged-out, .dashboard, .global-nav .search-input, .global-nav .search-input:focus, .RichEditor, input, textarea, div[contenteditable], .t1-select, .new-tweets-bar:hover, .twtr-color-bg--extra-extra-light-gray-neutral, .MomentMakerPage-content, .MomentMakerRecommendations{
+	.logged-in, .logged-out, .dashboard, .global-nav .search-input, .global-nav .search-input:focus, .RichEditor, input, textarea, div[contenteditable], .t1-select, .new-tweets-bar:hover, .twtr-color-bg--extra-extra-light-gray-neutral, .MomentMakerPage-content, .MomentMakerRecommendations, html[dir="ltr"]{
 		background-color: #111115;
 	}
 /* 18 18 22 */
-	.new-tweets-bar, .ProfileHeading-content, .EdgeButton--secondary:hover, .stream-end-inner, .FollowStatus, .EdgeButton--tertiary, .modal-header, .DirectMessage--received .DirectMessage-text, .TypingIndicatorMessageBubble-dotContainer, .DMInbox-secondaryInboxCopy, .PermalinkOverlay-spinnerContainer, .Tombstone, .tweet-form .thumbnail-container, .DMComposer-container, .rn-1q3imqu, .advanced-search .chk-inner, .advanced-search select, .advanced-search input[type="text"], .wtf-module .import-prompt .service, #notifications-optout-all-top, .disabled, .disabled:hover, .disabled:focus, .disabled:active, input[disabled], .t1-select[disabled], textarea[disabled], input[readonly], .t1-select[readonly], textarea[readonly], div[contenteditable="false"], div[contenteditable="true"][readonly], .sc-key, .ProfilePage.is-editing .ProfilePage-editingOverlay, .BirthdateSelect-button, .twtr-main, .hp04__bleed, .twtr-color-bg--blue-extra-light-50, .EdgeButton--invertedPrimary:hover, .EdgeButton--invertedSecondary:hover, body.twtr-theme--light-blue .u01__item{
+	.new-tweets-bar, .ProfileHeading-content, .EdgeButton--secondary:hover, .stream-end-inner, .FollowStatus, .EdgeButton--tertiary, .modal-header, .DirectMessage--received .DirectMessage-text, .TypingIndicatorMessageBubble-dotContainer, .DMInbox-secondaryInboxCopy, .PermalinkOverlay-spinnerContainer, .Tombstone, .tweet-form .thumbnail-container, .DMComposer-container, .rn-1q3imqu, .advanced-search .chk-inner, .advanced-search select, .advanced-search input[type="text"], .wtf-module .import-prompt .service, #notifications-optout-all-top, .disabled, .disabled:hover, .disabled:focus, .disabled:active, input[disabled], .t1-select[disabled], textarea[disabled], input[readonly], .t1-select[readonly], textarea[readonly], div[contenteditable="false"], div[contenteditable="true"][readonly], .sc-key, .ProfilePage.is-editing .ProfilePage-editingOverlay, .BirthdateSelect-button, .twtr-main, .hp04__bleed, .twtr-color-bg--blue-extra-light-50, .EdgeButton--invertedPrimary:hover, .EdgeButton--invertedSecondary:hover, body.twtr-theme--light-blue .u01__item, ._31BYOq17, ._3lxG9gTr, input[type="text"], .FormTextarea{
 		background-color: #121216;
 	}
 /* 24 24 28 */
-	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body, #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet, .ThreadedConversation--header, .content-header .header-inner, .module .list-link, .module .list-link:hover, .module .active .list-link, #activity-popup-dialog .modal-header, .rn-urgr8i, .FoundMediaSearch-query, .dropdown-menu, .PollingCardComposer, .EmojiPicker-categoryHeader, .AdaptiveFiltersBar, .MomentGuideNavigation, .DMButtonBar, .DMTokenizedMultiselectSuggestion.is-highlighted, .DMPopover-content, .DirectMessage-location, .DirectMessage-card, .content-inner, .find-friends-top-subheader, .find-friends-bottom-subheader, .find-friends-sources, .MutedKeywordsFooter, .ProfileTweet-action .btn, .NotificationsEmptyModule, .ProfileListsTimeline .GridTimeline-end:not(.has-items), .MomentMakerRecommendations-module, .MomentMakerCapsuleCover-empty, .ProfileAvatarEditing, .u-bgUserColor, .u-bgUserColorHover:hover, .u-bgUserColorHover:focus{
+	.NotificationsHeadingContent, .ProfileListItem, .dropdown-menu, .tweet:hover, .conversation-module .conversation-tweet-item .tweet:hover, .DMActivity-header, .DMInbox-tab, .EdgeButton--secondary, .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover, .message, .DMConversationSettings-notifications, .DMConversationSettings-mentions, .DMViewParticipants-header, #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body, #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet, .ThreadedConversation--header, .content-header .header-inner, .module .list-link, .module .list-link:hover, .module .active .list-link, #activity-popup-dialog .modal-header, .rn-urgr8i, .FoundMediaSearch-query, .dropdown-menu, .PollingCardComposer, .EmojiPicker-categoryHeader, .AdaptiveFiltersBar, .MomentGuideNavigation, .DMButtonBar, .DMTokenizedMultiselectSuggestion.is-highlighted, .DMPopover-content, .DirectMessage-location, .DirectMessage-card, .content-inner, .find-friends-top-subheader, .find-friends-bottom-subheader, .find-friends-sources, .MutedKeywordsFooter, .ProfileTweet-action .btn, .NotificationsEmptyModule, .ProfileListsTimeline .GridTimeline-end:not(.has-items), .MomentMakerRecommendations-module, .MomentMakerCapsuleCover-empty, .ProfileAvatarEditing, .u-bgUserColor, .u-bgUserColorHover:hover, .u-bgUserColorHover:focus, ._3rbA223L{
 		background-color: #18181C;
 	}
 	.DMInboxItem:hover, .u-bgUserColorLightest, .flex-module, .MomentsGuidePage-content, n.MomentsPage.MomentsPermalinkPage, .MomentsPage.MomentsGuidePage{
@@ -35,14 +35,14 @@
 		border-bottom-color: #18181C;
 	}
 /* 28 28 33 */
-	.tweet, .tweet-user, .TwitterCard, .home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox, .modal-content, .modal .modal-tweet, .ThreadedConversation-moreReplies, .permalink, .permalink .inline-reply-tweetbox, .permalink .stream-end-inner, .permalink-tweet:hover, .permalink-tweet.focus, .stream-item:not(.no-header-background-module), .ActivityItem, .DMActivity-body, .DMDivider, .DMTrustRequest, .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, #activity-popup-dialog .modal-content, .SidebarFilterModule, .datepicker.dropdown-menu, .stream-container .AdaptiveStreamGridImage .grid-tweet-actions-container, .dm-media-preview, .PromptbirdPrompt, .Gallery-content .stream-item-footer, .AdaptiveRelatedSearches, .AdaptiveNewsRelatedHeadlines, .AdaptiveNewsLargeImageHeadline-body, .MomentDialog-footer, .MomentMakerCoverDialog .modal-body, .MomentMakerThemeColorDialog-body{
+	.tweet, .tweet-user, .TwitterCard, .home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox, .modal-content, .modal .modal-tweet, .ThreadedConversation-moreReplies, .permalink, .permalink .inline-reply-tweetbox, .permalink .stream-end-inner, .permalink-tweet:hover, .permalink-tweet.focus, .stream-item:not(.no-header-background-module), .ActivityItem, .DMActivity-body, .DMDivider, .DMTrustRequest, .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, #activity-popup-dialog .modal-content, .SidebarFilterModule, .datepicker.dropdown-menu, .stream-container .AdaptiveStreamGridImage .grid-tweet-actions-container, .dm-media-preview, .PromptbirdPrompt, .Gallery-content .stream-item-footer, .AdaptiveRelatedSearches, .AdaptiveNewsRelatedHeadlines, .AdaptiveNewsLargeImageHeadline-body, .MomentDialog-footer, .MomentMakerCoverDialog .modal-body, .MomentMakerThemeColorDialog-body, ._3pWYlPZW{
 		background-color: #1C1C21;
 	}
 	.Gallery-content .stream-item-footer{
 		border-color: #1C1C21 !important;
 	}
 /* 33 33 38 */
-	.global-nav-inner, .ProfileCanopy-navBar, .ProfileCard, .ProfileCard-avatarLink, .DashboardProfileCard, .module, .EdgeButton--tertiary:hover, .u01__dropdown, .u01__menu-item.has-dropdown::after, .u04__dropdown, .u04__menu-item.has-dropdown::after, .MomentCapsuleItemTweet--withText, .EdgeButton--invertedPrimary, .EdgeButton--invertedSecondary{
+	.global-nav-inner, .ProfileCanopy-navBar, .ProfileCard, .ProfileCard-avatarLink, .DashboardProfileCard, .module, .EdgeButton--tertiary:hover, .u01__dropdown, .u01__menu-item.has-dropdown::after, .u04__dropdown, .u04__menu-item.has-dropdown::after, .MomentCapsuleItemTweet--withText, .EdgeButton--invertedPrimary, .EdgeButton--invertedSecondary, ._1Mz0FYWQ{
 		background: #212126;
 	}
 	.trends-container{
@@ -53,8 +53,11 @@
 		border: 4px solid #212126;
 		border-radius: 10%;
 	}
+	._1vZXKD_p{
+		border-color: #212126 transparent transparent;
+	}
 /* 50 50 54 */
-	.DMInboxItem.is-unread, .MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover, .InputToken{
+	.DMInboxItem.is-unread, .MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover, .InputToken, .Dropdown, ._2KoY6rVS:hover{
 		background-color: #323236;
 	}
 	.twtr-color--dark-gray-neutral.has-hover:active, .twtr-color--dark-gray-neutral.has-hover:hover{
@@ -73,8 +76,9 @@
 	.MomentMakerActionButtons-button, body:not(.swift-loading) .MomentCapsuleEditableMeta .is-showPlaceholder::before{
 		color: #C8C8D2 !important;
 	}
+
 /* transparent */
-	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads, .ThreadedConversation, .ThreadedConversation--loneTweet, .self-thread-permalink-cta, .dashboard .stats, .activity-popup-dialog-content .tweet, .EmojiPicker-query, .search, .MomentMediaItem, .MomentCapsuleSummary-cover, .AdaptiveMedia-photoContainer img, .SessionsSettings--row .SessionsSettings--row-time-active, .PhotoRail-mediaBox .tweet-media-img-placeholder, .input-prepend .add-on, .input-append .add-on, .twtr-color-bg--blue-extra-dark, .twtr-color-bg--white-neutral{
+	.active, .stats, .people, .global-dm-nav, .ProfileNav-item--userActions,.DashboardProfileCard-avatarLink, .hovercard .profile-social-proof, .permalink .inline-reply-tweetbox-container, .ThreadedConversation-showMoreThreads, .ThreadedConversation, .ThreadedConversation--loneTweet, .self-thread-permalink-cta, .dashboard .stats, .activity-popup-dialog-content .tweet, .EmojiPicker-query, .search, .MomentMediaItem, .MomentCapsuleSummary-cover, .AdaptiveMedia-photoContainer img, .SessionsSettings--row .SessionsSettings--row-time-active, .PhotoRail-mediaBox .tweet-media-img-placeholder, .input-prepend .add-on, .input-append .add-on, .twtr-color-bg--blue-extra-dark, .twtr-color-bg--white-neutral, ._2IVO2HbD, .w6AM6Z5K{
 		background-color: transparent;
 	}
 	.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active, body > .TwitterCard, .PlayableMedia-reactWrapper > div, .ProfileSidebar .flex-module, .SidebarCommonModules .flex-module, .AdaptiveMedia-photoContainer, .Gallery-content, .Gallery-media, .Gallery-media img, .MomentMakerTopBarDropdownMenu .dropdown-menu .dropdown-link[disabled], .MomentMakerTopBarDropdownMenu .dropdown-menu .dropdown-link[disabled]:hover{
@@ -104,7 +108,7 @@
 	.desktop-tab{
 		background-color: #E07238;
 	}
-	.twtr-color--black-neutral.has-hover{
+	.twtr-color--black-neutral.has-hover, ._2n42vE4k, .FormField .FormTextarea, input[type="text"], textarea, .FormTokenInput.FormTextarea .FormTokenInput-input, .Dropdown-menuItem .Dropdown-menuItemContent, ._1QcFWTUe.QmaSsgiq, ._1YuBS1Mq .Button--link._10r0Jn25{
 		color: #FFF;
 	}
 
@@ -117,7 +121,7 @@
 	}
 
 /* FUCK CIRCLES */
-	.avatar, .Avatar, .ProfileAvatar-image, .ProfileAvatar-placeholderImage, .ProfileUserList .Avatar, .ProfileCard-avatarImage, .ProfileCardMini-avatarImage, .ProfileCard-avatarLink, .ProfileListItem-avatar, .nav .session .dropdown-toggle, .DMAvatar, .avatar--circular, .ProfileAvatarEditing-button, .ProfileAvatarEditing-button, .ProfileAvatarEditing, .ProfileAvatarEditing-overlay{
+	.avatar, .Avatar, .ProfileAvatar-image, .ProfileAvatar-placeholderImage, .ProfileUserList .Avatar, .ProfileCard-avatarImage, .ProfileCardMini-avatarImage, .ProfileCard-avatarLink, .ProfileListItem-avatar, .nav .session .dropdown-toggle, .DMAvatar, .avatar--circular, .ProfileAvatarEditing-button, .ProfileAvatarEditing-button, .ProfileAvatarEditing, .ProfileAvatarEditing-overlay, .User-profileImage img, img.User-profileImage{
 		border-radius: 10%;
 	}
 	.Gallery.with-tweet.without-tweet .Gallery-media{
@@ -132,6 +136,9 @@
 	}
 	.AdaptiveMedia{
 		border-radius: 6px;
+	}
+	._2tZWBFWt img{
+		border-radius: 4px !important;
 	}
 	.hovercard.profile-card .ProfileCard-avatarImage{
 		border: 2px solid transparent;
@@ -154,10 +161,10 @@
 	.DMConversationSettings-notifications, .modal-footer, .TweetstormDialog .TweetstormDialog-content.is-thread .modal-footer{
 		border-top: 0px;
 	}
-	.DMConversationSettings-mentions, .DMInbox-tab{
+	.DMConversationSettings-mentions, .DMInbox-tab, ._3lxG9gTr{
 		border-bottom: 0px;
 	}
-	.input-daterange .input-group-addon, .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, .AdaptiveMedia.is-square:not(.is-video){
+	.input-daterange .input-group-addon, .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, .AdaptiveMedia.is-square:not(.is-video), ._2dRIa5go{
 		border: 0px;
 	}
 
@@ -167,6 +174,9 @@
 	}
 	.FoundMediaSearch-focusable{
 		border: 3px solid #18181C;
+	}
+	._2RqKWa6E ._32Uk9uAl, .FormInput, .FormInputWrapper-endAdornment, .FormInputWrapper-startAdornment, .FormTextarea, input[type="text"]{
+		border: 1px solid #4D4D4D
 	}
 
 /* F L E X */
@@ -185,7 +195,7 @@
 		-ms-transition: 50ms linear;
 		transition: 50ms linear;
 	}
-	.QuoteTweet, .EdgeButton--invertedPrimary, .EdgeButton--invertedSecondary{
+	.QuoteTweet, .EdgeButton--invertedPrimary, .EdgeButton--invertedSecondary, ._2KoY6rVS{
 		-webkit-transition: 150ms linear;
 		-ms-transition: 150ms linear;
 		transition: 150ms linear;
@@ -207,6 +217,9 @@
 	.global-nav-inner{
 		box-shadow: 0px 0px 25px 15px #000;
 	}
+	._3lxG9gTr{
+		box-shadow: 0px 0px 25px 10px #000;
+	}
 	.avatar, #user-dropdown{
 		box-shadow: 0px 0px 4px 0px #000;
 	}
@@ -224,6 +237,9 @@
 	.ProfileCanopy.is-locked .ProfileCanopy-inner{
 		opacity: 0;
 		position: fixed;
+	}
+	.w6AM6Z5K{
+		position: relative;
 	}
 
 /* FIXING TWITTER'S OWN BUGS */
@@ -294,6 +310,13 @@
 	/* unnecessary scrolling on short pages; so far nothing seems to break because of this but I haven't tested thoroughly, so it may possibly cause problems somewhere down the line */
 	#page-outer{
 		height: 95%;
+	}
+	/* Some weird padding space within the Media Studio UI...??? */
+	._1toegXs_{
+		display: none;
+	}
+	._2dRIa5go{
+		padding: 0px !important;
 	}
 
 /* r-r-r-r-resize */
@@ -392,14 +415,11 @@
 	.bird-topbar-etched{
 		margin-top: 12px;
 	}
-	.self-thread-tweet-cta{
+	.self-thread-tweet-cta, .ProfileTweet-actionList{
 		margin-top: 8px;
 	}
 	.self-thread-head{
 		display: none;
-	}
-	.ProfileTweet-actionList{
-		margin-top: 8px;
 	}
 	.permalink-tweet .content{
 		margin-bottom: 10px;
@@ -407,8 +427,14 @@
 	.mini-avatar-with-thread{
 		margin-left: -60px;
 	}
-	.user-data-dashboard-content hr, .user-data-dashboard-content h3, .permalink .ThreadedConversation--selfThread:not(:last-child){
+	.user-data-dashboard-content hr, .user-data-dashboard-content h3, .permalink .ThreadedConversation--selfThread:not(:last-child), ._2dRIa5go, ._1_LUvYWq{
 		margin: 0;
+	}
+	._1_251TnO{
+		margin: 0 18px;
+	}
+	._31BYOq17{
+		height: 0px;
 	}
 	.SidebarCommonModules{
 		width: 280px;
@@ -429,7 +455,7 @@
 		min-height: 50px;
 	}
 	.DMDialogTypeahead{
-		padding-top: 4px;
+		padding-top: 4px ;
 	}
 	.DMInboxItem{
 		padding: 8px 10px 8px 70px;
@@ -444,6 +470,12 @@
 	}
 	.PhotoRail-mediaBox{
 		padding-bottom: 20px;
+	}
+	._2RqKWa6E ._32Uk9uAl{
+		height: 150px;
+	}
+	._2dRIa5go{
+		padding-top: 12px !important;
 	}
 
 /* laptop fixes */
